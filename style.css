@@ -1,0 +1,92 @@
+#h1 {
+border: 5px orange solid;
+padding: 60px;
+margin: 20px;
+color: yellow;
+background-image: url("https://media1.tenor.com/images/9837dae7d9f4c6ff26f4d2c6c95bc15a/tenor.gif");
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;
+background-size: 400px 200px;
+
+}
+#h1:hover {
+color: green;
+}
+
+.h2 {
+border: 5px purple solid;
+padding: 20px;
+margin: 20px;
+background-color: blue;
+color: green;
+background-image: url("https://media.tenor.com/images/8b981fcac784cabe5f2404fd5bea3d82/tenor.gif");
+background-position: right bottom, left top;
+background-repeat: repeat;
+background-size:200px 80px;
+}
+.h2:hover {
+color: gray;
+}
+
+.button{
+    border: 6px black solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+    color: yellow;
+}
+
+.button:hover {
+      border: 6px yellow dash;
+      color: red;
+}
+.image {
+    border: 6px black solid;
+    padding: 5px;
+    border-radius:60%;
+    margin: 20px;
+
+}
+
+.image:hover {
+    border: 6px green solid;
+}
+
+.link:hover {
+    color:red;
+}
+
+.div {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.p1 {
+border: 10px grren dash;
+padding: 20px;
+margin: 20px;
+background-color: blue;
+color: yellow;
+background-image: url("https://i.imgur.com/7U1neg8.gif");
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;
+background-size: 200px 100px;
+}
+.p1:hover {
+color: gray;
+}
+
